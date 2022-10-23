@@ -18,6 +18,8 @@ public class OgameNavigation {
 
     private static String XPATH_ELEKTROWNIA = "/html/body/center/table/tbody/tr[5]/td[2]/a";
 
+    //TODO sprawdź czy coś sie buduje i sprawdź ile masz hajsu
+
 
     public static void goToBuildings(WebDriver driver){
         driver.switchTo().defaultContent();

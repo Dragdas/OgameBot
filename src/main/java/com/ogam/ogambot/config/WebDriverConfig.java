@@ -1,4 +1,4 @@
-package com.ogam.ogambot.webDriver;
+package com.ogam.ogambot.config;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;

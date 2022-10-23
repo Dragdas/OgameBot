@@ -1,11 +1,9 @@
 package com.ogam.ogambot.ogamClient;
 
 import com.ogam.ogambot.ogamClient.enums.Buildings;
-import com.ogam.ogambot.webDriver.WebDriverConfig;
+import com.ogam.ogambot.config.WebDriverConfig;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebDriver;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class OgamClientTest {
 
