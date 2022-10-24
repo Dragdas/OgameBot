@@ -1,6 +1,5 @@
 package com.ogam.ogambot.config;
 
-
 import lombok.Getter;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
@@ -10,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
 public class CoreApplicationConfiguration {
 
     @Value("${ogame.username}")
-    private String userName;
+    private String username;
 
     @Value("${ogame.password}")
     private String password;
